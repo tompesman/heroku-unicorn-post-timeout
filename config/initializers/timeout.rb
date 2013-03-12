@@ -1,0 +1,1 @@
+Rack::Timeout.timeout = ENV["TIMEOUT"] ? ENV["TIMEOUT"].to_i : 5 # seconds
